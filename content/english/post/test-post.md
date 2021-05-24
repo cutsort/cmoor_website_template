@@ -6,3 +6,4 @@ description = "Testing GitHub actions"
 
 Test
 test2
+test3
