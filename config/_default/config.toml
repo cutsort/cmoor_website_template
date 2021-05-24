@@ -1,0 +1,20 @@
+baseURL = "https://katherinecox.github.io/cmoor_website_template_hugo_gha/"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Home"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+publishDir = "docs"
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+# Syntax highlighting
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
