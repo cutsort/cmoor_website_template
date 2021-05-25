@@ -8,4 +8,4 @@ tags = [
 ]
 +++
 
-Check out this [awesome R Notebook](notebooks/RNotebook_demo.nb.html) I just made!
+Check out this [awesome R Notebook](/notebooks/RNotebook_demo.nb.html) I just made!
