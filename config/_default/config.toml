@@ -1,4 +1,4 @@
-baseURL = "https://katherinecox.github.io/cmoor_website_template_hugo_gha/"
+baseURL = "http://www.c-moor.org/cmoor_website_template/"
 languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Home"
