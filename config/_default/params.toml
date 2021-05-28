@@ -49,9 +49,9 @@ title = "GitHub"
 url = "https://github.com/lxndrblz/anatole/"
 
 [[socialIcons]]
-icon = "fab fa-instagram"
-title = "instagram"
-url = "https://www.instagram.com/"
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/"
 
 [[socialIcons]]
 icon = "fas fa-envelope"
