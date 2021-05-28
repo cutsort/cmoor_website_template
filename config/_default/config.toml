@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "http://www.c-moor.org/cmoor_website_template/"
 languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Home"
