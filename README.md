@@ -35,12 +35,12 @@ https://docs.google.com/presentation/d/13chl2zYU1NbWCZmD_daqiKcLoJZAtILMqjXgew3T
 
 First, you need to create your own copy of the website template.
 
-1. Find the [C-MOOR website template]() on GitHub.  Click the green “Use this template” button  to make your own copy.
+1. Find the [C-MOOR website template](https://github.com/C-MOOR/cmoor_website_template/) on GitHub.  Click the green “**Use this template**” button  to make your own copy.
     - This will open up a page for setting up your new project.  On GitHub, projects are called “repositories”.
 1. Choose a name for your new repository.  This name will be part of the URL for your website, so it’s a good idea to make it short and descriptive.
     - You can change it later, but it’s a bit of a pain, so try to pick something that you will stick with.  You can also add a short description if you would like.
-1. If you are using the free GitHub plan, you must choose Public for your website to work.
-1. Click the “Create repository from template” button.
+1. If you are using the free GitHub plan, you must set the repository as **Public** for your website to work.
+1. Click the “**Create repository from template**” button.
 
 You should now have your own copy of the website repository (source code) that you can edit as you please, though it won't yet look like a website.  
 
@@ -48,7 +48,59 @@ You should now have your own copy of the website repository (source code) that y
 
 The next step is to set things up so that this collection of files gets turned turn into a proper website.
 
+There are two important settings you need to set up to get your website working:
+
+1. Set up GitHub pages, which will tell GitHub to treat your repository as a website (so it will display properly)
+1. Update the URL so it points to your copy of the site, rather than the C-MOOR template
+
+#### Setup GitHub pages
+
+1. In your repository, click on the “Settings” tab in the upper right.
+1. Within the “Settings” tab, select “Pages” from the left menu.  You may have to scroll down to find it.
+1. Check the “Source” for your site.  The branch should be `gh-pages` and the folder should be `root`.
+1. Click Save.
+
+While you’re here, copy the URL for your site (shown in the blue box).  You’ll need it for the next step.
+
+#### Update URL
+
+1. From the main page of your repository, click on the folder named `config/_default`.
+1. Click on the file named “config.toml”
+1. Click on the pencil icon in the upper right to edit this file
+1. Update the `baseURL` (first line of this file)
+    - Right now, this has the URL for the C-MOOR template website.  Replace the URL with the address of your website (the address you copied from the GitHub Pages Settings).  This should have your GitHub username followed by the name of your repository.
+    - Make sure to keep the quotation marks around the new URL.
+1. Save your changes by scrolling down to the “Commit changes” box.  Enter a brief description of the change, then click “Commit changes”.
+
+It will take little while for your website to update, but shouldn’t take more than a minute or so.  From the main page of your repository, you can see an orange dot indicating that GitHub is working.  You can click on this dot to see more information.  When GitHub is done, the orange dot will change to a green checkmark.  If it’s been more than a minute and it hasn’t changed, try refreshing the page.  Sometimes the status indicator doesn’t update right away.
+
+#### View Site
+
+To view your website, you can either enter your website’s URL directly in your browser, or you can click on the github-pages Environment in the bottom right.
+
+- If you clicked on github-pages, you will end up on the Deployments page.  This has information about every time your website gets updated.  There should be a recent new deployment.  Click “View deployment” to see your website.
+
+If you don’t see a website or the website looks weird, the first thing you should do is to try clearing your browser cache.  Your browser may have stored an old version of the website instead of getting the latest version.
+
+
 ### Confirm You Can Edit
 
 ## Personalize Website
+
+## Troubleshooting
+
+### Clear browser cache
+
+Sometimes when you make edits to your website, you won't be able to see them (even though they were successful) because your browser has stored the old version of the website and is showing you that instead of getting the latest version.  You can fix this and get the latest version of your website by clearing your browser cache.
+
+This will look a little different depending which browser you are using, but generally, you will
+
+1. Open your browser preferences / settings
+1. Look for an option labeled something like "**clear browsing data**".  It will probably be located under **Privacy or Security** settings.
+1. Select the option labeled something like "clear cached files and images" or "clear cached web content".
+    - You do not have to clear your cookies or browsing history.  It won’t cause problems with your website if you do, but you may get logged out of other sites if you clear your cookies, so it can be inconvenient.  You only *need* to clear the cached version of the website.
+1. Click the button to clear the data
+1. Once you’ve cleared your browser’s cached files, try revisitng your website and check if you see the updates you expect.
+
+
 
