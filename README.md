@@ -35,9 +35,18 @@ https://docs.google.com/presentation/d/13chl2zYU1NbWCZmD_daqiKcLoJZAtILMqjXgew3T
 
 First, you need to create your own copy of the website template.
 
+1. Find the [C-MOOR website template]() on GitHub.  Click the green “Use this template” button  to make your own copy.
+    - This will open up a page for setting up your new project.  On GitHub, projects are called “repositories”.
+1. Choose a name for your new repository.  This name will be part of the URL for your website, so it’s a good idea to make it short and descriptive.
+    - You can change it later, but it’s a bit of a pain, so try to pick something that you will stick with.  You can also add a short description if you would like.
+1. If you are using the free GitHub plan, you must choose Public for your website to work.
+1. Click the “Create repository from template” button.
 
+You should now have your own copy of the website repository (source code) that you can edit as you please, though it won't yet look like a website.  
 
 ### Configure Settings
+
+The next step is to set things up so that this collection of files gets turned turn into a proper website.
 
 ### Confirm You Can Edit
 
