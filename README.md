@@ -82,8 +82,17 @@ To view your website, you can either enter your website’s URL directly in your
 
 If you don’t see a website or the website looks weird, the first thing you should do is to try [clearing your browser cache](https://github.com/C-MOOR/cmoor_website_template/blob/main/README.md#clear-browser-cache).  Your browser may have stored an old version of the website instead of getting the latest version.
 
-
 ### Confirm You Can Edit
+
+Finally, try making a small change to the website content, and make sure that your website updates correctly to reflect that change.
+
+1. From the main page of your repository, click on the folder named `config/_default`.
+1. Click on the file named `params.toml`
+1. Click on the pencil icon in the upper right to edit this file
+1. Change the title or description to say something about yourself.
+1. Save your changes by scrolling down to the “**Commit changes**” box.  Enter a brief description of the change, then click “Commit changes”.
+1. View your website.  Remember that it may take a minute to update.  If you don’t see any changes, try [clearing your browser cache](https://github.com/C-MOOR/cmoor_website_template/blob/main/README.md#clear-browser-cache) and then refreshing the page.
+
 
 ## Personalize Website
 
