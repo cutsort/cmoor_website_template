@@ -89,7 +89,8 @@ Finally, try making a small change to the website content, and make sure that yo
 1. From the main page of your repository, click on the folder named `config/_default`.
 1. Click on the file named `params.toml`
 1. Click on the pencil icon in the upper right to edit this file
-1. Change the title or description to say something about yourself.
+1. Change the title and/or description to say something about yourself.
+    + ![](https://docs.google.com/presentation/d/13chl2zYU1NbWCZmD_daqiKcLoJZAtILMqjXgew3TR6c/export/png?id=13chl2zYU1NbWCZmD_daqiKcLoJZAtILMqjXgew3TR6c&pageid=gd7ff47b35c_0_236)
 1. Save your changes by scrolling down to the “**Commit changes**” box.  Enter a brief description of the change, then click “Commit changes”.
 1. View your website.  Remember that it may take a minute to update.  If you don’t see any changes, try [clearing your browser cache](https://github.com/C-MOOR/cmoor_website_template/blob/main/README.md#clear-browser-cache) and then refreshing the page.
 
