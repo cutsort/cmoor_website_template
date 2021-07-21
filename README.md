@@ -100,14 +100,14 @@ Finally, try making a small change to the website content, and make sure that yo
 Once you have a functioning website, you will want to replace the example content with information about you.  You will also want to customize some settings.  Here we provide instructions on how to 
 
 - Update the profile information
-- 
+- Update the About page
 
 
 Note that there are several other settings you can change, including things like
 
 - Display of dates and math
 - Comments and a contact form
-- Analytics
+- Site Analytics
 - Multilingual content
 
 If you would like to learn more about other ways you can configure your website, visit the [GitHub repository](https://github.com/lxndrblz/anatole) for the website theme and look through the README file.
@@ -152,6 +152,21 @@ https://docs.google.com/presentation/d/1Fvf-pp35kzthJawqHwNVg8fTA5YDOWSOD88hVBFs
 1. Save your changes by scrolling down to the "**Commit changes**" box.  Enter a brief description of the change, then click "Commit changes".
 1. View your website and click on the social media icons to confirm they link to your accounts. Remember that it may take a minute to update.  If the links haven’t changed, try [clearing your browser cache](https://github.com/C-MOOR/cmoor_website_template/blob/main/README.md#clear-browser-cache) and then refreshing the page.
 
+### Update About Page
+
+The About page gives you a chance to tell people a little bit about yourself.  A couple of paragraphs is generally appropriate.  You might describe how and where you’ve been studying or working, or what kinds of projects you find exciting and why.
+
+This video ([video](https://link.c-moor.org/video-student-website-personalize-about))([slides](
+https://docs.google.com/presentation/d/1qg3i5WhpqiPrLPdLdJoiVaCmZALNpPrlbHwBigbtfYo/)) shows you how to update the About page of your website.  You can follow along with the video, or follow the steps below.
+
+1. From the main page of your repository, click on the folder named `content`.
+1. Click on the folder named `english`.
+1. Click on the file named `about.md`.
+1. Click on the pencil icon in the upper right to edit this file.
+1. Change the `description`.  "About *Your Name*" is a good choice.  You can also update the date, though this is not important.
+1. Replace the content of the page (below the row of plus signs) with some information about yourself.  You can use markdown to add formatting, such as bold or italic text, links, and lists.  This [commonmark tutorial](https://commonmark.org/help/tutorial/) provides a walkthrough of how to use markdown if you need it.
+1. Save your changes by scrolling down to the "**Commit changes**" box.  Enter a brief description of the change, then click "Commit changes".
+1. View your website and look at the About page to see if it looks the way you want. Remember that it may take a minute to update.  If the links haven’t changed, try [clearing your browser cache](https://github.com/C-MOOR/cmoor_website_template/blob/main/README.md#clear-browser-cache) and then refreshing the page.
 
 ## Troubleshooting
 
