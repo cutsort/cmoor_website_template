@@ -97,6 +97,62 @@ Finally, try making a small change to the website content, and make sure that yo
 
 ## Personalize Website
 
+Once you have a functioning website, you will want to replace the example content with information about you.  You will also want to customize some settings.  Here we provide instructions on how to 
+
+- Update the profile information
+- 
+
+
+Note that there are several other settings you can change, including things like
+
+- Display of dates and math
+- Comments and a contact form
+- Analytics
+- Multilingual content
+
+If you would like to learn more about other ways you can configure your website, visit the [GitHub repository](https://github.com/lxndrblz/anatole) for the website theme and look through the README file.
+
+### Update profile
+
+This video ([video](https://link.c-moor.org/video-student-website-personalize-profile))([slides](
+https://docs.google.com/presentation/d/1Fvf-pp35kzthJawqHwNVg8fTA5YDOWSOD88hVBFs840/)) shows you how to update the profile information displayed on the left side of the website, including the text, image, and social media links.  You can follow along with the video, or follow the steps below.
+
+#### Update Title and Description
+
+1. From the main page of your repository, click on the folder named `config/_default`.
+1. Click on the file named `params.toml`.
+1. Click on the pencil icon in the upper right to edit this file.
+1. Update the `title` and `description` to say something about yourself.
+1. Save your changes by scrolling down to the "**Commit changes**" box.  Enter a brief description of the change, then click "Commit changes".
+1. View your website. Remember that it may take a minute to update.  If you don’t see any changes, try [clearing your browser cache](https://github.com/C-MOOR/cmoor_website_template/blob/main/README.md#clear-browser-cache) and then refreshing the page.
+
+#### Update Profile Image
+
+1. Upload a new image
+    1. From the main page of your repository, click on the folder named `static/images`.
+    1. Click the "**Add file**" button and choose "**Upload files**".
+    1. Upload an image file, then scroll down and commit your changes to save them.
+1. Set the profile image
+    1. From the main page of your repository, click on the folder named `config/_default`.
+    1. Click on the file named `params.toml`.
+    1. Click the pencil icon in the upper right to edit this file.
+    1. Change the file name of the image to match the the image file you want to use.
+        + Make sure they match exactly, including the extension, or your website won’t be able to find the image.
+        + Make sure to keep the quotation marks around the new file name.
+    1. Save your changes by scrolling down to the "**Commit changes**" box.  Enter a brief description of the change, then click "Commit changes".
+    1. View your website. Remember that it may take a minute to update.  If you don’t see any changes, try [clearing your browser cache](https://github.com/C-MOOR/cmoor_website_template/blob/main/README.md#clear-browser-cache) and then refreshing the page.
+
+#### Update social media links
+
+1. From the main page of your repository, click on the folder named `config/_default`.
+1. Click on the file named `params.toml`.
+1. Click on the pencil icon in the upper right to edit this file.
+1. For each social media account that you would like to add, enter the `url` of your profile.  Don’t change the `icon` or `title`.
+    + If you do not have an account or don’t want to link your account, you can remove the icon by inserting a hash symbol (`#`) before each line for that platform.  Make sure you do this for all four lines.  The hash tells your website to ignore these lines.  They should turn grey when you add the hashes in front of them.
+1. Save your changes by scrolling down to the "**Commit changes**" box.  Enter a brief description of the change, then click "Commit changes".
+1. View your website and click on the social media icons to confirm they link to your accounts. Remember that it may take a minute to update.  If the links haven’t changed, try [clearing your browser cache](https://github.com/C-MOOR/cmoor_website_template/blob/main/README.md#clear-browser-cache) and then refreshing the page.
+
+
 ## Troubleshooting
 
 ### Clear browser cache
