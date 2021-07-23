@@ -112,7 +112,7 @@ Note that there are several other settings you can change, including things like
 
 If you would like to learn more about other ways you can configure your website, visit the [GitHub repository](https://github.com/lxndrblz/anatole) for the website theme and look through the README file.
 
-### Update profile
+### Update Profile
 
 This video ([video](https://link.c-moor.org/video-student-website-personalize-profile))([slides](
 https://docs.google.com/presentation/d/1Fvf-pp35kzthJawqHwNVg8fTA5YDOWSOD88hVBFs840/)) shows you how to update the profile information displayed on the left side of the website, including the text, image, and social media links.  You can follow along with the video, or follow the steps below.
@@ -142,7 +142,7 @@ https://docs.google.com/presentation/d/1Fvf-pp35kzthJawqHwNVg8fTA5YDOWSOD88hVBFs
     1. Save your changes by scrolling down to the "**Commit changes**" box.  Enter a brief description of the change, then click "Commit changes".
     1. View your website. Remember that it may take a minute to update.  If you don’t see any changes, try [clearing your browser cache](https://github.com/C-MOOR/cmoor_website_template/blob/main/README.md#clear-browser-cache) and then refreshing the page.
 
-#### Update social media links
+#### Update Social Media Links
 
 1. From the main page of your repository, click on the folder named `config/_default`.
 1. Click on the file named `params.toml`.
@@ -167,6 +167,21 @@ https://docs.google.com/presentation/d/1qg3i5WhpqiPrLPdLdJoiVaCmZALNpPrlbHwBigbt
 1. Replace the content of the page (below the row of plus signs) with some information about yourself.  You can use markdown to add formatting, such as bold or italic text, links, and lists.  This [commonmark tutorial](https://commonmark.org/help/tutorial/) provides a walkthrough of how to use markdown if you need it.
 1. Save your changes by scrolling down to the "**Commit changes**" box.  Enter a brief description of the change, then click "Commit changes".
 1. View your website and look at the About page to see if it looks the way you want. Remember that it may take a minute to update.  If the links haven’t changed, try [clearing your browser cache](https://github.com/C-MOOR/cmoor_website_template/blob/main/README.md#clear-browser-cache) and then refreshing the page.
+
+### Update Language Options
+
+This website template is able to support multilingual content, but setting it up is a bit complicated. The instructions below show you how to disable the Arabic language option, leaving only the English option.  If you're interested in setting up multilingual content, you can find out more in the README of the [GitHub repository](https://github.com/lxndrblz/anatole) for the website theme (scroll down to find the section on multilingual content).
+
+This video ([video](https://link.c-moor.org/video-student-website-personalize-languages))([slides](
+https://docs.google.com/presentation/d/1jLbdARLPvVnEl0HA18Jli0qQ90Bg9JFbenRqLBSeovk/)) shows you how to remove the Arabic language option, leaving on the the English option.  You can follow along with the video, or follow the steps below.
+
+1. From the main page of your repository, click on the folder named `config/_default`.
+1. Click on the file named `languages.toml`.
+1. Click on the pencil icon in the upper right to edit the file.
+1. Remove the Arabic option by inserting a hash symbol before each line.
+    + Make sure you do this for all seven lines.  The hash tells your website to ignore these lines.  They should turn grey when you add the hashes in front of them.
+1. Save your changes by scrolling down to the "**Commit changes**" box.  Enter a brief description of the change, then click "Commit changes".
+1. View your website and look at the top navigation bar to see if the Arabic option has been removed. Remember that it may take a minute to update.  If the links haven’t changed, try [clearing your browser cache](https://github.com/C-MOOR/cmoor_website_template/blob/main/README.md#clear-browser-cache) and then refreshing the page.
 
 ## Troubleshooting
 
