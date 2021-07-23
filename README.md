@@ -101,7 +101,8 @@ Once you have a functioning website, you will want to replace the example conten
 
 - Update the profile information
 - Update the About page
-
+- Update language options
+- Update site preview
 
 Note that there are several other settings you can change, including things like
 
@@ -136,7 +137,7 @@ https://docs.google.com/presentation/d/1Fvf-pp35kzthJawqHwNVg8fTA5YDOWSOD88hVBFs
     1. From the main page of your repository, click on the folder named `config/_default`.
     1. Click on the file named `params.toml`.
     1. Click the pencil icon in the upper right to edit this file.
-    1. Change the file name of the image to match the the image file you want to use.
+    1. Change the file name of the `profilePicture` to match the the image file you want to use.
         + Make sure they match exactly, including the extension, or your website won’t be able to find the image.
         + Make sure to keep the quotation marks around the new file name.
     1. Save your changes by scrolling down to the "**Commit changes**" box.  Enter a brief description of the change, then click "Commit changes".
@@ -182,6 +183,50 @@ https://docs.google.com/presentation/d/1jLbdARLPvVnEl0HA18Jli0qQ90Bg9JFbenRqLBSe
     + Make sure you do this for all seven lines.  The hash tells your website to ignore these lines.  They should turn grey when you add the hashes in front of them.
 1. Save your changes by scrolling down to the "**Commit changes**" box.  Enter a brief description of the change, then click "Commit changes".
 1. View your website and look at the top navigation bar to see if the Arabic option has been removed. Remember that it may take a minute to update.  If the links haven’t changed, try [clearing your browser cache](https://github.com/C-MOOR/cmoor_website_template/blob/main/README.md#clear-browser-cache) and then refreshing the page.
+
+### Update Site Preview
+
+This video ([video](https://link.c-moor.org/video-student-website-personalize-preview))([slides](
+https://docs.google.com/presentation/d/1r3PPXaHUnZfzeKe4hZisaVM7Edz5VLw6hnKHzvifoWE/edit)) shows you how to update the preview of your site that is displayed when you post the link somewhere, such as a messaging app or forum.  You can follow along with the video, or follow the steps below.
+
+#### Update Title
+
+1. From the main page of your repository, click on the folder named `config/_default`.
+1. Click on the file named `config.toml`.
+1. Click on the pencil icon in the upper right to edit this file.
+1. Change the `title` to your name
+1. Save your changes by scrolling down to the "**Commit changes**" box.  Enter a brief description of the change, then click "Commit changes".
+1. View your site preview by posting the link to your site in a messaging app or forum.
+
+#### Update Description
+
+Note that the description displayed in the site preview is the same as the description displayed in the profile section of your website.  Choose a description that works for both places.
+
+1. From the main page of your repository, click on the folder named `config/_default`.
+1. Click on the file named `params.toml`
+1. Click the pencil icon in the upper right to edit this file.
+1. Edit the description as you like.
+1. Save your changes by scrolling down to the "**Commit changes**" box.  Enter a brief description of the change, then click "Commit changes".
+1. View your site preview by posting the link to your site in a messaging app or forum.
+
+#### Update Preview Image
+
+Although the default image displayed in the site preview looks like a screenshot of the website, it does not automatically update to match changes you make to your website.  You get to choose what image is used as a preview for your website.  A screenshot of the whole website is usually a good option, but you could also zoom in on a particular section if you’d like.
+
+1. Take a screenshot of the part of your website you’d like to use for the preview.
+1. Upload the new image.
+    1. From the main page of your repository, click on the folder named `static/images`.
+    1. Click the "**Add file**" button and choose "**Upload files**".
+    1. Upload the image file, then scroll down and commit your changes to save them.
+1. Set the site preview image.
+    1. From the main page of your repository, click on the folder named `config/_default`.
+    1. Click on the file named `params.toml`.
+    1. Click the pencil icon in the upper right to edit this file.
+    1. Change the file name of `images` to match the the image file you want to use.
+        + Make sure they match exactly, including the extension, or your website won’t be able to find the image.
+        + Make sure to keep the quotation marks around the new file name.
+    1. Save your changes by scrolling down to the "**Commit changes**" box.  Enter a brief description of the change, then click "Commit changes".
+    1. View your site preview by posting the link to your site in a messaging app or forum.
 
 ## Troubleshooting
 
