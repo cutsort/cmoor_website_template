@@ -167,7 +167,7 @@ https://docs.google.com/presentation/d/1qg3i5WhpqiPrLPdLdJoiVaCmZALNpPrlbHwBigbt
 1. Change the `description`.  "About *Your Name*" is a good choice.  You can also update the date, though this is not important.
 1. Replace the content of the page (below the row of plus signs) with some information about yourself.  You can use markdown to add formatting, such as bold or italic text, links, and lists.  This [commonmark tutorial](https://commonmark.org/help/tutorial/) provides a walkthrough of how to use markdown if you need it.
 1. Save your changes by scrolling down to the "**Commit changes**" box.  Enter a brief description of the change, then click "Commit changes".
-1. View your website and look at the About page to see if it looks the way you want. Remember that it may take a minute to update.  If the links haven’t changed, try [clearing your browser cache](https://github.com/C-MOOR/cmoor_website_template/blob/main/README.md#clear-browser-cache) and then refreshing the page.
+1. View your website and look at the About page to see if it looks the way you want. Remember that it may take a minute to update.  If it hasn't changed, try [clearing your browser cache](https://github.com/C-MOOR/cmoor_website_template/blob/main/README.md#clear-browser-cache) and then refreshing the page.
 
 ### Update Language Options
 
@@ -182,12 +182,12 @@ https://docs.google.com/presentation/d/1jLbdARLPvVnEl0HA18Jli0qQ90Bg9JFbenRqLBSe
 1. Remove the Arabic option by inserting a hash symbol before each line.
     + Make sure you do this for all seven lines.  The hash tells your website to ignore these lines.  They should turn grey when you add the hashes in front of them.
 1. Save your changes by scrolling down to the "**Commit changes**" box.  Enter a brief description of the change, then click "Commit changes".
-1. View your website and look at the top navigation bar to see if the Arabic option has been removed. Remember that it may take a minute to update.  If the links haven’t changed, try [clearing your browser cache](https://github.com/C-MOOR/cmoor_website_template/blob/main/README.md#clear-browser-cache) and then refreshing the page.
+1. View your website and look at the top navigation bar to see if the Arabic option has been removed. Remember that it may take a minute to update.  If it hasn't been removed, try [clearing your browser cache](https://github.com/C-MOOR/cmoor_website_template/blob/main/README.md#clear-browser-cache) and then refreshing the page.
 
 ### Update Site Preview
 
 This video ([video](https://link.c-moor.org/video-student-website-personalize-preview))([slides](
-https://docs.google.com/presentation/d/1r3PPXaHUnZfzeKe4hZisaVM7Edz5VLw6hnKHzvifoWE/edit)) shows you how to update the preview of your site that is displayed when you post the link somewhere, such as a messaging app or forum.  You can follow along with the video, or follow the steps below.
+https://docs.google.com/presentation/d/1r3PPXaHUnZfzeKe4hZisaVM7Edz5VLw6hnKHzvifoWE/)) shows you how to update the preview of your site that is displayed when you post the link somewhere, such as a messaging app or forum.  You can follow along with the video, or follow the steps below.
 
 #### Update Title
 
@@ -227,6 +227,56 @@ Although the default image displayed in the site preview looks like a screenshot
         + Make sure to keep the quotation marks around the new file name.
     1. Save your changes by scrolling down to the "**Commit changes**" box.  Enter a brief description of the change, then click "Commit changes".
     1. View your site preview by posting the link to your site in a messaging app or forum.
+
+## Add Posts
+
+The following instructions show you how to add a post to your website, and how to add and link to additional media in your posts.
+
+### Structure of a post
+
++ Posts live in the `content/english/post` folder of your repository.
+    + This folder contains all the posts that will show up on your website.  To start with, it’s been filled with some example posts.  Each folder listed here is a different post.
+    + If you click on one of these folders you can see what makes up a post.
++ All posts will have an index.md file which contains the main content of the post.
+    + The `index.md` file for each post begins with a header section surrounded by rows of 3 plus signs.
+        + This header section contains information that helps your website display the post correctly.
+        + The `title` is what your post will be named on your home page
+        + Posts are sorted by `date`, so if you want a particular post to show up at the top, make sure to give it the latest date.
+        + You can also add tags to help organize your posts.
+    + Below the header is the main text of the post.
+	    + You can write anything you like here, and can format it using markdown.
++ Some posts may also include additional files such as images you want to include or files you want to link to.
+
+### Add Basic Post
+
+This video ([video](https://link.c-moor.org/video-student-website-post-basic))([slides](
+https://docs.google.com/presentation/d/1mLi7a-tZQLWp9RoOLhz90c_SDX2loBuXnwI7LfNJtcQ/)) shows you how to add a post to your website.  You can follow along with the video, or follow the steps below.
+
+1. From the main page of your repository, click on the folder named `content`.
+1. Click on the folder named `english`.
+1. Click on the folder named `post`.
+1. Click the "**Add file**" button, and choose "**Create new file**".
+1. Enter the name for your post, followed by a forward slash (`/`), then `index.md`.
+    + This will create a new folder and put a file named `index.md` inside.
+    + This file must be named `index.md` or your post will not show up correctly.
+    + The name of the folder will be used for the URL of the post, so it can’t have spaces.  Instead of spaces use hyphens or underscores.
+1. Add a header to your post.  This should start and end with 3 plus signs.
+	+ Make sure to include at least a `title` and `date`.
+1. Add the content of your post.
+    + You can add styling, such as bold, italics, or bullet points to your post using markdown.  If you’re not familiar with markdown, this [commonmark tutorial](https://commonmark.org/help/tutorial/) is a good place to learn the basics. 
+    + You can preview your post with the preview tab.  This won’t look exactly the same as it will on your website, but is a good way to quickly check that your markdown styling is working correctly and you haven’t made typos.
+    + You can also look through the example posts that came with the template website to see some other ways you can make your posts more interesting.
+1. Save your changes by scrolling down to the "**Commit new file**" box.  Enter a brief description of the change, then click "Commit new file".
+1. View your website and check to make sure you can see your new post, and that it looks the way you want. Remember that it may take a minute to update.  If the post hasn’t appeared, try [clearing your browser cache](https://github.com/C-MOOR/cmoor_website_template/blob/main/README.md#clear-browser-cache) and then refreshing the page.
+
+ 
+Once you have some content of your own, you can go ahead and delete the example content that came with the website template.  To delete a post
+1. Go to the `post` folder (`content/english/post`).
+1. Click on the folder for the post you want to delete.
+1. Within the folder for the post, click the `...` menu in the upper right and choose "**Delete directory**".
+1. You will see one or more boxes indicating that the files were deleted, but they will not really be deleted until you save your changes.  Scroll down to the "**Commit changes**" box and click "Commit changes" to delete the files.
+1. View your website, and check to make sure the post was deleted.  Remember that it may take a minute to update.  Remember that it may take a minute to update.  If the post hasn't disappeared, try [clearing your browser cache](https://github.com/C-MOOR/cmoor_website_template/blob/main/README.md#clear-browser-cache) and then refreshing the page.
+
 
 ## Troubleshooting
 
