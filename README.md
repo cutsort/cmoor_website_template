@@ -1,4 +1,4 @@
-# CMOOR Website Template
+# C-MOOR Website Template
 
 This is a template for C-MOOR students to use to create their own portfolio websites.  It enables students to create a professional website which they can manage through the GitHub GUI (no need to install or render anything locally).
 
@@ -276,6 +276,66 @@ Once you have some content of your own, you can go ahead and delete the example 
 1. Within the folder for the post, click the `...` menu in the upper right and choose "**Delete directory**".
 1. You will see one or more boxes indicating that the files were deleted, but they will not really be deleted until you save your changes.  Scroll down to the "**Commit changes**" box and click "Commit changes" to delete the files.
 1. View your website, and check to make sure the post was deleted.  Remember that it may take a minute to update.  Remember that it may take a minute to update.  If the post hasn't disappeared, try [clearing your browser cache](https://github.com/C-MOOR/cmoor_website_template/blob/main/README.md#clear-browser-cache) and then refreshing the page.
+
+
+### Add Assets
+
+This video ([video](https://link.c-moor.org/video-student-website-post-assets))([slides](
+https://docs.google.com/presentation/d/1iXwuC7qz3LuvIA1QXzHvUVCUn2OvkEoFdkLFoJgj8Dk/)) shows you how to add different types of media assets to your posts, including
++ documents such as PDF or text files
++ images
++ existing web content such as YouTube videos or Tweets
+
+#### Add documents and files
+
+1. Upload file
+    1. From the main page of your repository, click on the folder named `content`.
+    1. Click on the folder named `english`.
+    1. Click on the folder named `post`.
+    1. Navigate to the folder for the post that will link to the file.
+        + It is important that the file lives in the same folder as the `index.md` file of the post that will link to it.
+    1. Click the "**Add file**" button and choose "**Upload files**".
+    1. Upload the file(s), then scroll down and commit your changes to save them.
+1. Link to file
+    1. Navigate to the folder for the post that will link to the file.  It should now have the file(s) you uploaded in addition to the `index.md` file.
+    1. Click on the `index.md` file
+    1. Click the pencil icon in the upper right to edit this file.
+    1. To insert a link in your post, use square brackets around the text you want to act as a link, followed by parentheses around the name of the file you want to link to.  For example: `[click here](my_file.pdf)`  will make the words "click here" act as a link to the file `my_file.pdf`.
+        + Make sure the link destination inside the parentheses matches your file name exactly, or your website won’t be able to find the file.
+    1. Save your changes by scrolling down to the "**Commit changes**" box.  Enter a brief description of the change, then click "Commit changes".
+    1. View your website and check to make sure the link shows up and correctly links to the file. Remember that it may take a minute to update.
+        + If the post hasn’t appeared, try [clearing your browser cache](https://github.com/C-MOOR/cmoor_website_template/blob/main/README.md#clear-browser-cache) and then refreshing the page.
+        + If the link shows up but gives an error when you click on it, double check that the link destination inside the parentheses exactly matches your file name.
+
+#### Add images
+
+1. Upload file
+    1. From the main page of your repository, click on the folder named `content`.
+    1. Click on the folder named `english`.
+    1. Click on the folder named `post`.
+    1. Navigate to the folder for the post that will contain the image.
+        + It is important that the image lives in the same folder as the `index.md` file of the post that will contain it.
+    1. Click the "**Add file**" button and choose "**Upload files**".
+    1. Upload the image file(s), then scroll down and commit your changes to save them.
+1. Link to image
+    1. Navigate to the folder for the post that will link to the file.  It should now have the file(s) you uploaded in addition to the `index.md` file.
+    1. Click on the `index.md` file
+    1. Click the pencil icon in the upper right to edit this file.
+    1. To insert an image in your post, use an exclamation point followed by square brackets, then parentheses around the name of the file you want to link to.  For example: `![](landscape.jpg)`.
+        + Make sure the link inside the parentheses matches your file name exactly, or your website won’t be able to find the image.
+    1. Save your changes by scrolling down to the "**Commit changes**" box.  Enter a brief description of the change, then click "Commit changes".
+    1. View your website and check to make sure the image shows up and correctly links to the file. Remember that it may take a minute to update.
+        + If the post hasn’t appeared, try [clearing your browser cache](https://github.com/C-MOOR/cmoor_website_template/blob/main/README.md#clear-browser-cache) and then refreshing the page.
+        + If the image does not show up properly, double check that the link destination inside the parentheses exactly matches your file name.
+
+#### Web assets
+
+Hugo "shortcodes" extend markdown to enable easy inclusion of existing web assets (among other things).
+
++ To insert a YouTube video, use `{{< youtube w7Ft2ymGmfc >}}`.  Replace the ID with the ID from the video you want to include.
++ To insert a Tweet, use `{{< tweet 877500564405444608 >}}`.  Replace the ID with the ID from the tweet you want to include.
+
+There are several other shortcodes available, you can learn about them in the [Hugo documentation](https://gohugo.io/content-management/shortcodes/).
 
 
 ## Troubleshooting
